@@ -1,0 +1,114 @@
+/* Pengaturan seluruh halaman */
+
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #dee2fd;
+    color: #17043a;
+}
+
+
+/* Navbar */
+
+nav {
+    background-color: #2a3085;
+    color: white;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 15px 30px;
+}
+
+
+/* Menu */
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 10px;
+}
+
+
+/* Link */
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+
+/* Efek link */
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+
+/* Semua section */
+
+section {
+    padding: 20px 10px;
+    text-align: center;
+}
+
+
+/* Judul utama */
+
+h1 {
+    font-size: 40px;
+}
+
+
+/* Tombol */
+
+button {
+    background-color: #2a3085;
+    color: white;
+
+    border: none;
+
+    padding: 10px 20px;
+
+    border-radius: 5px;
+
+    cursor: pointer;
+}
+
+
+/* Ketika tombol disentuh mouse */
+
+button:hover {
+    background-color: #020d4b;
+}
+
+
+/* Card */
+
+.card {
+    background-color: white;
+
+    width: 300px;
+
+    margin: 20px auto;
+
+    padding: 25px;
+
+    border-radius: 10px;
+
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+/* Input */
+
+input {
+    padding: 10px;
+
+    width: 250px;
+
+    border: 1px solid #ccc;
+
+    border-radius: 5px;
+}

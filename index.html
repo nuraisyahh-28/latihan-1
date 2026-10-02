@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil Mahasiswa</title>
+</head>
+<body>
+    <h1> Website Profil Mahasiswa</h1>
+    <nav>
+        <h3>Profil saya</h3>
+    <ul>
+        <li>
+            <a href="#home">Home</a>
+        </li>
+        <li>
+            <a href="#profil">Profil</a>     
+        </li>
+        <li>
+            <a href="#kontak">Kontak</a>
+        </li>
+    </ul>
+    <p>Selamat datang di website saya</p>
+    </nav>
+
+    <section id="home">
+        <section id="home">
+        <h1>Selamat Datang</h1>
+        <p>
+            Ini adalah website profil mahasiswa
+            yang dibuat menggunakan HTML, CSS, dan JavaScript.
+        </p>
+        <button onclick="tampilkanPesan()">
+            Klik Saya
+        </button>
+        <p id="pesan"></p>
+    </section>
+
+    <section id="profil">
+        <h2>Profil Saya</h2>
+        <div class="card">
+            <h3>Data Mahasiswa</h3>
+            <p>Nama: Aisyah</p>
+            <p>NIM: 123456</p>
+            <p>Program Studi: Rekayasa Sistem Komputer</p>
+        </div>
+    </section>
+
+    <section id="kontak">
+        <h2>Kontak</h2>
+        <input
+            type="text"
+            id="nama"
+            placeholder="Masukkan nama">
+
+        <button onclick="sapaUser()">
+            Kirim
+        </button>
+        <p id="hasil"></p>
+    </section>
+</body>
+<link rel="stylesheet" href="style.css">
+<script src="script.js"></script>
+</html>
